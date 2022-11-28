@@ -18,7 +18,7 @@ export class UserEntity extends Base {
 	isVerified: boolean;
 
 	@Column({ default: 0, name: 'subscribers_count' })
-	subscriberCount?: number;
+	subscribersCount?: number;
 
 	@Column({ default: '', type: 'text' })
 	description: string;
